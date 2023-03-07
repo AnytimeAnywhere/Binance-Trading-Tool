@@ -1,0 +1,1660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>290</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>290</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Binance Control</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(43, 49, 58);</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="sizeCurrency">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>20</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>120</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>120</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 170, 255);</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="duplicatesEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>BTCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ETHUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BCHUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XRPUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EOSUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LTCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TRXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ETCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LINKUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XLMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XMRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DASHUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ZECUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XTZUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BNBUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ATOMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ONTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IOTAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BATUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VETUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEOUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QTUMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IOSTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>THETAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ALGOUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ZILUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KNCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ZRXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COMPUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>OMGUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DOGEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SXPUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KAVAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BANDUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RLCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WAVESUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MKRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SNXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DOTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DEFIUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>YFIUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BALUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CRVUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TRBUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RUNEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SUSHIUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SRMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EGLDUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SOLUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ICXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>STORJUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BLZUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UNIUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AVAXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FTMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HNTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ENJUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FLMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TOMOUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RENUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KSMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEARUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AAVEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FILUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RSRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LRCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MATICUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>OCEANUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CVCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BELUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CTKUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AXSUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ALPHAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ZENUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SKLUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GRTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1INCHUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BTCBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CHZUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SANDUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ANKRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BTSUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LITUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UNFIUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>REEFUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RVNUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SFPUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XEMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BTCSTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COTIUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CHRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MANAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ALICEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HBARUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ONEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LINAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>STMXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DENTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CELRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HOTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MTLUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>OGNUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NKNUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DGBUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1000SHIBUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BAKEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GTCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ETHBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BTCDOMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TLMUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BNBBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADABUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XRPBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IOTXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DOGEBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AUDIOUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RAYUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C98USDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MASKUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ATAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SOLBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FTTBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DYDXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1000XECUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GALAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CELOUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ARUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KLAYUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ARPAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CTSIUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LPTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ENSUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PEOPLEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ANTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ROSEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DUSKUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FLOWUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IMXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>API3USDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GMTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>APEUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WOOUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FTTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>JASMYUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DARUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GALUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AVAXBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEARBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GMTBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>APEBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GALBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FTMBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DODOBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ANCBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GALABUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TRXBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1000LUNCBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LUNA2BUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LUNA2BUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>OPUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DOTBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TLMBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ICPBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WAVESBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LINKBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SANDBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LTCBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MATICBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CVXBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FILBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1000SHIBBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LEVERBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ETCBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LDOBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UNIBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AUCTIONBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>INJUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>STGUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FOOTBALLUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SPELLUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1000LUNCUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LUNA2USDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AMBBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PHBBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LDOUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CVXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ICPUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>APTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QNTUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>APTBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BLUEBIRDUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FETUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AGIXBUSD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FXSUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HOOKUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MAGICUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RNDRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HIGHUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MINAUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ASTRUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AGIXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PHBUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GMXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CFXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>STXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COCOSUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BNXUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ACHUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SSVUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CKBUSDT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PERPUSDT</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>271</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(170, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Lot Size</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Nx_slider">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="tabletTracking">
+          <bool>true</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgbrgb(71, 77, 87);
+alternate-background-color: rgb(0, 170, 0);</string>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>125</number>
+         </property>
+         <property name="value">
+          <number>5</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Nx_spin">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>125</number>
+         </property>
+         <property name="value">
+          <number>5</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(170, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>QTY Percent</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="percent_slider">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="tabletTracking">
+          <bool>true</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgbrgb(71, 77, 87);
+alternate-background-color: rgb(0, 170, 0);</string>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>10</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="percent_spin">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>10</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>220</width>
+      <height>123</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLineEdit" name="tpEdit">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Take Profit</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="tpType">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::NoContextMenu</enum>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 170, 255);</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="duplicatesEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="modelColumn">
+          <number>0</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Mark</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Last</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLineEdit" name="slEdit">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Stop Loss</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="slType">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::NoContextMenu</enum>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 170, 255);</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="duplicatesEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="modelColumn">
+          <number>0</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Mark</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Last</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="priceEdit">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Limit Price</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="priceType">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::NoContextMenu</enum>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 170, 255);</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="duplicatesEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="modelColumn">
+          <number>0</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Mark</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Limit</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>224</width>
+      <height>79</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>60</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="buyBtn">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Buy/Long</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="sellBtn">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Sell/Short</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeLimitBtn">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Close Limit Orders</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeMarketBtn">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Close Market Orders</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>Nx_slider</tabstop>
+  <tabstop>percent_slider</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
